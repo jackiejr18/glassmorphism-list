@@ -70,4 +70,25 @@ section::after {
   border-radius: 10px;
   margin: 10px 0;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.box .list:hover {
+  background: #fff;
+}
+
+.box .list .imgBx {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.box .list .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
