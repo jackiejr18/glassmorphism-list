@@ -54,8 +54,20 @@ section::after {
   border-radius: 10px;
   z-index: 10;
   padding: 20px;
+  backdrop-filter: blur(25px); 
 }
 
 .box h3 {
   color: #fff;
+  margin-bottom: 20px;
+}
+
+.box .list {
+  position: relative;
+  display: flex;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px 0;
+  cursor: pointer;
 }
