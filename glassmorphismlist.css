@@ -11,3 +11,10 @@
   font-family: 'Pokemon Classic';
   box-sizing: border-box;
 }
+
+section {
+  position: relative;
+  background: #161623;
+  min-height: 100vh;
+  overflow: hidden;
+}
