@@ -97,3 +97,26 @@ section::after {
   height: 100%;
   object-fit: cover;
 }
+
+.box .list .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.box .list .content .rank {
+  position: absolute;
+  right: -50px;
+  color: #03a9f4;
+  transition: 0.5s;
+}
+
+.box .list .content .rank small {
+  font-weight: 500;
+  opacity: 0.25;
+}
+
+.box .list:hover .content .rank {
+  right: -25px;
+}
